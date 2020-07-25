@@ -39,3 +39,15 @@ console.log(ninjas,`The length is ${result3}`);
 
 let result4 = ninjas.pop();
 console.log(ninjas,`The pop value is ${result4}`);
+
+
+//booleans & comparisons
+let email1 = 'xy@z.com';
+let arr = ['shrey','mahima','ronak'];
+
+let result5 = email1.includes('@');
+let result6 = arr.includes('ronak');
+console.log(result5);
+console.log(result6);
+
+console.log(0.1+0.2 == 0.3)
